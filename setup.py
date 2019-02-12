@@ -7,7 +7,8 @@ setup(
     version = __VERSION__,
     author = 'John Machin',
     author_email = 'sjmachin@lexicon.net',
-    url = 'http://www.python-excel.org/',
+    url = 'https://github.com/djerbic/xlrd-ignore-writeaccess-corruption',
+    download_url='https://github.com/djerbic/xlrd-ignore-writeaccess-corruption/archive/1.2.0.1.tar.gz',
     packages = ['xlrd'],
     scripts = [
         'scripts/runxlrd.py',
