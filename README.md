@@ -3,7 +3,7 @@
 [![Documentation Status](https://readthedocs.org/projects/xlrd/badge/?version=latest)](http://xlrd.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://badge.fury.io/py/xlrd.svg)](https://badge.fury.io/py/xlrd)
 
-### xlrd
+### xlrd-ignore-writeaccess-corruption
 
 Please read this before using this library: https://groups.google.com/d/msg/python-excel/P6TjJgFVjMI/g8d0eWxTBQAJ
 
@@ -27,6 +27,10 @@ The package itself is pure Python with no dependencies on modules or packages ou
 *   Comments
 *   Hyperlinks
 *   Autofilters, advanced filters, pivot tables, conditional formatting, data validation
+
+**Changes from the original xlrd project**
+
+* Only a fix described here: https://www.bountysource.com/issues/60998877-unicodedecodeerror-utf-16-le-codec-can-t-decode-byte-0x20-in-position
 
 **Unlikely to be done**:
 
